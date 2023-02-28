@@ -1,8 +1,31 @@
-[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+# FlowTime
 
-# Full Stack JVM & JS App Hands-On Lab
+Flowtime is a tool to help tabulate/organize work sessions, break sessions using the Flowtime Technique.  
+It is created using the kotlin-multiplatform--react--MUI Stack.
 
-This repository is the code corresponding to the hands-on lab [Building a Full Stack Web App with Kotlin Multiplatform](https://play.kotlinlang.org/hands-on/Full%20Stack%20Web%20App%20with%20Kotlin%20Multiplatform/).
+# Install
+Use the gradle wrapper to build and install Flowtime
+```bash
+ORG_GRADLE_PROJECT_isProduction=true
+./gradlew installDist
+```
+# 
 
-**The master branch is to be used as a template. If you would like to see the completed project, check out the [final](https://github.com/kotlin-hands-on/jvm-js-fullstack/tree/final) branch.**
+# Usage
+
+1) Run the build jar and connect to localhost:9090 in a browser of your choice
+
+2) Create Work/Break Sessions using the timers in the Timer Tab:
+
+
+![Timer Tab](/imgs/TimerTab.png)
+
+3) To record certain distractions that occured in your sessions, create corresponding tags in the Distractions Tab. You may add them on the right hand side of the Timer's tab:
+
+
+![Distraction Tab](/imgs/DistractionsTab.png)
+
+4) See the statistics of your work and break sessions, as well as your distractions in the statistics tab:
+
+
+![Statistics Tab](/imgs/StatsTab.png)
