@@ -1,0 +1,3 @@
+package platformDependant
+
+expect interface DataGridRowData
